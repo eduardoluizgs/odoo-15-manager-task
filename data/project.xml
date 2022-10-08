@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- BLOCK : Master.com V3
+
+        <record id="CAD_Paises" model="master.integration.event.source">
+            <field name="name">Cadastro de Países</field>
+            <field name="source_name">CAD_Paises</field>
+            <field name="source_system">MasterComV3</field>
+            <field name="keys">CodigoDoPais</field>
+            <field name="active">1</field>
+        </record>
+
+        <record id="Pedidos" model="master.integration.event.source">
+            <field name="name">Pedidos</field>
+            <field name="source_name">Pedidos</field>
+            <field name="source_system">MasterComV3</field>
+            <field name="keys">CodigoDaEmpresa,CodigoDoPedido</field>
+            <field name="active">1</field>
+        </record>
+        -->
+
+        <!-- END BLOCK : Master.com V3 -->
+
+    </data>
+</odoo>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+
+        <!-- BLOCK : MENU -->
+
+            <!-- Main Menu -->
+            <menuitem id="menu_manager"
+                      name="Gerenciamento de Tarefas"
+                      parent=""
+                      sequence="3"
+                      groups="base.group_system" />
+
+                <!--BLOCK MENU : Register -->
+                <menuitem id="menu_manager_register"
+                        name="Cadastros"
+                        parent="menu_manager"
+                        sequence="1"
+                        groups="base.group_system"/>
+
+                    <!-- Geral -->
+                    <menuitem id="menu_manager_register_general"
+                            name="Geral"
+                            parent="menu_manager_register"
+                            sequence="1"
+                            groups="base.group_system"/>
+
+                    <!-- BLOCK MENU :  Geral -->
+
+                        <!-- Projetos -->
+                        <menuitem id="menu_manager_register_general_project"
+                                name="Projetos"
+                                parent="menu_manager_register_general"
+                                sequence="1"
+                                action="action_manager_task_project"
+                                groups="base.group_system" />
+
+                    <!-- END BLOCK MENU :  Geral -->
+
+                <!-- END BLOCK MENU : Register -->
+
+                <!--BLOCK MENU : Tasks -->
+                <menuitem id="menu_manager_tasks"
+                        name="Tarefas"
+                        parent="menu_manager"
+                        sequence="2"
+                        groups="base.group_system"/>
+
+                    <!-- Integração -->
+                    <menuitem id="menu_manager_task"
+                            name="Tarefas"
+                            parent="menu_manager_tasks"
+                            sequence="1"
+                            action="action_manager_task_task"
+                            groups="base.group_system" />
+
+                <!-- END BLOCK MENU : Tasks -->
+
+        <!-- END BLOCK : MENU -->
+
+    </data>
+</odoo>

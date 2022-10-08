@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_manager_task_project_group_system,Projetos - Grupo Administraçãp,model_manager_task_project,base.group_system,1,1,1,1
+access_manager_task_task_source_group_system,Tarefas - Grupo Administraçãp,model_manager_task_task,base.group_system,1,1,1,1
